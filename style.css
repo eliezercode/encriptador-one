@@ -350,7 +350,7 @@ footer {
     }
     #screen {
         background-image: url("img/fondo-movil.png");
-        height: 475px;
+        height: 100%;
     }
     #background-svg { display: none; }
     .box {
