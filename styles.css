@@ -341,7 +341,7 @@ footer {
 
 @media (max-width: 526px) {
     body{ 
-        background-image: url("img/backgorund-movil.png");
+        background-image: url("img/background-movil.png");
         background-repeat: no-repeat;
         min-height: 100%;
         margin-top: 60px;
