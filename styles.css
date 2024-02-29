@@ -300,32 +300,30 @@ footer {
 
 /* Responsive PC and Tablet */
 
-@media (max-width: 1067px) {
-    #screen { height: 442px; }
-    #background-svg { box-shadow: none; }
+@media (max-width: 1067px){
+    #screen { height: 442px;}
+    #background-svg { box-shadow: none;}
 }
-@media (max-width: 1027px) {
-    .warning-text2 {
+@media (max-width: 1027px){
+    .warning-text2{
         font-size: 15px;
         text-align: center;
     }
-    .warning-text3 {
+    .warning-text3{
         font-size: 8px;
         text-align: center;
     }
 }
-@media (max-width: 865px) {
-    .position-toy { margin-top: 10px; }    
-    .done-encrypt, .done-decrypt { font-size: 14px; }
-    .button { margin-right: 26px; }
+@media (max-width: 865px){
+    .position-toy { margin-top: 10px;}    
+    .done-encrypt, .done-decrypt { font-size: 14px;}
+    .button { margin-right: 26px;}
 }
 
 /* Responsive movil */
 
 @media (max-width: 582px) {
-    body { 
-        background-image: url("img/backgorund-movil.png");
-        background-repeat: no-repeat;
+    body{ 
         min-height: 100%;
         margin-top: 60px;
     }
@@ -342,47 +340,53 @@ footer {
 }
 
 @media (max-width: 526px) {
-    header { 
+    body{ 
+        background-image: url("img/backgorund-movil.png");
+        background-repeat: no-repeat;
+        min-height: 100%;
+        margin-top: 60px;
+    }
+    header{ 
         height: none;
         margin-top: 0px;
     }
-    #alura {
+    #alura{
         height: 18px;
         padding-left: 5px;
     }
-    #title-encrypt { 
+    #title-encrypt{ 
         padding-top: 3px;
         font-size: 18px;
     }
-    #screen {
+    #screen{
         height: 100%;
     }
-    #background-svg { display: none; }
-    .box {
+    #background-svg { display: none;}
+    .box{
         flex-flow: column wrap;
         padding: 5px;
     }
-    .box-place {
+    .box-place{
         margin: 5px;
         height: 520px;
     }
-    #input-text {
+    #input-text{
         height: 158px;
         margin: 5px;
     }
-    #output-text {
+    #output-text{
         height: 138px;
         margin: 5px;
     }
-    #btn {
+    #btn{
         height: 20px;
         font-size: 10px;
     }
-    .title-warning {
+    .title-warning{
         margin-top: 0px;
         width: 355px;
     }    
-    .warning-text {
+    .warning-text{
         font-size: 11px;
         margin-left: 3px;
         padding: 5px;
