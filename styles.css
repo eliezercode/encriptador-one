@@ -323,7 +323,12 @@ footer {
 /* Responsive movil */
 
 @media (max-width: 582px) {
-    body { margin-top: 100px;}
+    body { 
+        background-image: url("img/backgorund-movil.png");
+        background-repeat: no-repeat;
+        height: 520px;
+        margin-top: 60px;
+    }
     #input-text{ height: 284px;}
     #output-text{ height: 258px;}
     .done-decrypt{
@@ -341,7 +346,6 @@ footer {
         height: none;
         margin-top: 0px;
     }
-    body { min-height: 100%;}
     #alura {
         height: 18px;
         padding-left: 5px;
@@ -351,7 +355,6 @@ footer {
         font-size: 18px;
     }
     #screen {
-        background-image: url("img/fondo-movil.png");
         height: 100%;
     }
     #background-svg { display: none; }
